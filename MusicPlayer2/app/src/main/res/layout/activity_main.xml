@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="786dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center"
+        app:srcCompat="@drawable/headphones" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@color/transparent"
+        android:text="PlayMe."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:translationX="110px"
+        android:translationY="700px" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@color/transparent"
+        android:text="We're the second most popular"
+        android:textColor="@color/fade"
+        android:textSize="20sp"
+        android:translationX="110px"
+        android:translationY="850px" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@color/transparent"
+        android:text="place to listen to music in the"
+        android:textColor="@color/fade"
+        android:textSize="20sp"
+        android:translationX="110px"
+        android:translationY="920px" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@color/transparent"
+        android:text="world - and growing fast."
+        android:textColor="@color/fade"
+        android:textSize="20sp"
+        android:translationX="110px"
+        android:translationY="990px" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@color/transparent"
+        android:text="For fun, swipe left"
+        android:textColor="@color/swipe"
+        android:textSize="14sp"
+        android:translationX="110px"
+        android:translationY="1090px" />
+</FrameLayout>
